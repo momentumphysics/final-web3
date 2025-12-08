@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
     <link rel="stylesheet" href="node_modules\@fortawesome\fontawesome-free\css\all.min.css">
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
     <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
-    <script src="node_modules\@popperjs\core\dist\cjs\popper.js"></script>
+    <script src="node_modules\popper.js\dist\umd\popper.min.js"></script>
     <script src="node_modules\jquery\dist\jquery.slim.min.js"></script>
+    
+    <!--
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+
 </head>
 <body>
     <section id="header">
@@ -35,21 +42,21 @@
             <i class="fa-solid fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT ME</a>
+                <a class="nav-link" href="#about">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">RESUME</a>
+                <a class="nav-link" href="#resume">Resmue</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
+                <a class="nav-link" href="#services">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTENT</a>
+                <a class="nav-link" href="#contact">Contact</a>
             </ul>
           </div>
         </nav>
@@ -64,7 +71,148 @@
             <div class="col-md-6">
               <h3>WHO AM I?</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quibusdam nesciunt tempora, nam distinctio enim, rem fugiat, harum dolorem quaerat dicta ab. Explicabo earum quod voluptas voluptate placeat cupiditate, magni deleniti a vel, doloremque hic.</p>
+
+              <div class="skills-bar">
+                <p>Network</p>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 60%;">60%</div>
+                </div>
+
+                 <p>AI Studio</p>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 20%;">20%</div>
+                </div>
+
+                 <p>Website</p>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 10%;">10%</div>
+                </div>
+
+                 <p>Design</p>
+                <div class="progress">
+                  <div class="progress-bar" style="width: 10%;">10%</div>
+                </div>
+              </div>
             </div>
+          </div>
+         </div>
+
+
+         <!------ Resume ----------->
+         <div class="resume" id="resume">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h3 class="text-center">My Experiences</h3>
+                <ul class="timeline">
+                  <li>
+                    <h4><span>2025 - </span>Junior Network Administrator</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae numquam quae ea esse rem accusamus at voluptate dicta rerum et!<br>
+                    <b>Company</b> - xyz company pvt ltd <br>
+                    <b>Duration</b> - 3 days <br>
+                    <b>Location</b> - Indonesia <br>
+                    </p>
+                  </li>
+                  <li>
+                    <h4><span>2026 - </span>Junior Cyber Security</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae numquam quae ea esse rem accusamus at voluptate dicta rerum et!<br>
+                    <b>Company</b> - xyz company pvt ltd <br>
+                    <b>Duration</b> - 30 days <br>
+                    <b>Location</b> - Indonesia <br>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+
+
+              <div class="col-md-6">
+                <h3 class="text-center">My Education</h3>
+                <ul class="timeline">
+                  <li>
+                    <h4><span>2027 - </span>Bachelor Of IT</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae numquam quae ea esse rem accusamus at voluptate dicta rerum et!<br>
+                    <b>Institute</b> - UINAM<br>
+                    <b>Session</b> - 4 years <br>
+                    <b>Aggregate</b> - Indonesia <br>
+                    </p>
+                  </li>
+                  <li>
+                    <h4><span>2030 - </span>Magister of Networking</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae numquam quae ea esse rem accusamus at voluptate dicta rerum et!<br>
+                    <b>Institute</b> - UI<br>
+                    <b>Session</b> - 3 years <br>
+                    <b>Aggregate</b> - Indonesia <br>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+         </div>
+
+
+         <!-- SERVICES -->
+
+         <div class="services" id="services">
+          <div class="container">
+            <h1 class="text-center">My Offered Services</h1>
+            <p class="text-center">Come to my github repository! 
+              <br>There's a bunch of useful project you can use. It's all free!
+            </p>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="services-box">
+                  <i class="fa-solid fa-rocket"></i><span>Graphics</span>
+                  <p>
+                    Come to my github repository! There's a bunch of useful project you can use. It's all free! Press the star icon for future update
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="services-box">
+                  <i class="fa-solid fa-line-chart"></i><span>Business</span>
+                  <p>
+                    Come to my github repository! There's a bunch of useful project you can use. It's all free! Press the star icon for future update
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="services-box">
+                  <i class="fa-solid fa-laptop"></i><span>Development</span>
+                  <p>
+                    Come to my github repository! There's a bunch of useful project you can use. It's all free! Press the star icon for future update
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+
+
+         <!-- contact -->
+
+         <div class="contact" id="contact">
+          <div class="container text-center">
+            <h1>Contact Me</h1>
+            <p class="text-center">Come to my github repository! 
+              <br>There's a bunch of useful project you can use. It's all free!
+            </p>
+            <div class="row">
+              <div class="col-md-4"><i class="fa fa-phone"></i>
+              <p>+62 88247603424</p>
+              </div>
+              <div class="col-md-4"><i class="fa fa-envelope"></i>
+              <p>abdillahhmm208@gmail.com</p>
+              </div>
+              <div class="col-md-4"><i class="fa fa-mobile"></i>
+              <p>www.abdiura.com</p>
+              </div>
+            </div>
+            <button type="button" class="btn btn-primary"><i class="fa fa-download"></i>Resume</button>
+            <button type="button" class="btn btn-primary"><i class="fa fa-download"></i>Hire Me</button>
+          </div>
+          <div class="footer text-center">
+            <p>Made with <i class="fa fa-heart"></i> by Tutor</p>
           </div>
          </div>
      </section>
