@@ -74,6 +74,7 @@ body {
 .profile-img {
     height: 300px;
     border-radius: 20%;
+    margin-bottom: 15px;
 }
 
 .nav-bar {
